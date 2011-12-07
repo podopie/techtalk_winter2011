@@ -1,0 +1,100 @@
+/* Global CSS */
+body { font-family: "helvetica neue", helvetica, arial, sans-serif; }
+.container { width: 100%; min-width: 960px; margin: auto; }
+.frame-container { width: 960px; margin: auto; }
+.frame { height: 800px; width: 100%; }
+a { z-index: 10; }
+.relative { position: relative; }
+.last { margin: 0px; }
+.push-down { padding-top: 100px; }
+/* end */
+/* Opener Frame */
+.opening { background: #fff; color: #000; height: 940px; padding-top: 100px; }
+.tech-header h1 { font-size: 4.5em; font-family: monaco, monospace; }
+.tech-header h1.indent { margin-left: 1em; }
+.tech-header h2 { font-size: 3em; line-height: 1.5em; font-family: monaco, monospace; }
+.tech-header h2.indent { margin-left: 1em; }
+.time-to-scroll { background: url(scroll-me.png) 0 0 no-repeat; height: 75px; width: 200px; position: absolute; left: 800px; top: 0px; overflow: hidden; }
+.time-to-scroll span { display: inline-block;-webkit-transform: rotate(5deg); transform: rotate(5deg); line-height: 2em; font-family: consolas, monaco, monospace; }
+/* End Opener */
+/* Frame Two */
+.two { background: #B7DDFF; color: #1D3345; height: 1200px; text-shadow: -1px 0px 1px rgba(86, 151, 204, 0.2); font-family: monaco, monospace; }
+.two h1 {font-size: 4em;  font-weight: 600; }
+.two h1.indent { margin-left: 1em; }
+.two li {font-size: 1.8em; line-height: 1.5em; font-weight: 500; }
+.two li.indent { margin-left: 1em; }
+.width-1500 {width: 950px; margin: auto; }
+.two .time-to-scroll { position: absolute; top: 300px; }
+.frame-two-part-one, .frame-two-part-two { height: 632px; }
+.frame-two-part-two h1 {padding: 1em 0; }
+/* End Two */
+/* Frame Three */
+.three { background: #73BF93; color: #263F31; text-shadow: -1px 0px 0px rgba(38, 63, 49, 0.8); font-family: monaco, monospace; height: 1000px; }
+.three h1 { font-size: 4.5em;  font-weight: 600; }
+.three img { margin-top: 140px; }
+.three .time-to-scroll { top: 100px; }
+.three h1.got-none { font-family: "helvetica neue", helvetica, arial, sans-serif; }
+/* End Three */
+/* Frame Four */
+.four { background: #C7BE70; color: #333; height: 1000px; }
+.four .ed { background: url(img/ed.png) no-repeat; width: 900px; height: 500px; margin-top: 100px; }
+/* End Four */
+/* Frame Five */
+.five { background: #333; color: #fff; text-shadow: -1px 0px 0px rgba(0, 0, 0, 0.3); height: 1000px; }
+.five .bookcover { width: 250px; height: 300px; margin-left: 40px; margin-top: 40px; overflow: hidden; float: left; }
+.five .bookcover h1 { font-size: 1.5em; padding: 20px; }
+.five .change { position: relative; }
+.five .change .bookinfo { position: absolute; top: 0; left: 0; width: 250px; height: 300px; }
+.five .bookcover .book { -webkit-transition: all 0.3s ease-in-out; }
+.five .bookcover .bookinfo { float: right; -webkit-transform: translateX(-250px); -webkit-transition: all 0.3s ease-in-out; background: rgba(0, 0, 0, 0.5); border-radius: 5px; }
+.five li { padding: 20px; }
+.five .bookcover:hover .book { -webkit-transform: translateX(250px); }
+.five .bookcover:hover .bookinfo { -webkit-transform: translateX(0px); }
+.five .bookcover #firstbook { display: block; position: relative; background: rgba(0, 0, 0, 0.5) url(img/book1.png) center no-repeat; width: 250px; height: 300px; }
+.five .bookcover #secondbook { background: rgba(0, 0, 0, 0.5) url(img/book2.jpg) center no-repeat; width: 250px; height: 300px; }
+.five .bookcover #thirdbook { background: rgba(0, 0, 0, 0.5) url(img/book3.png) center no-repeat; width: 250px; height: 300px; }
+.five .bookcover #fourthbook { background: rgba(0, 0, 0, 0.5) url(img/book4.jpg) center no-repeat; width: 250px; height: 300px; clear: both; }
+.five .bookcover #fifthbook { background: rgba(0, 0, 0, 0.5) url(img/book5.jpg) center no-repeat; width: 250px; height: 300px; }
+.five .bookcover #sixthbook { background: rgba(0, 0, 0, 0.5) url(img/book6.jpg) center no-repeat; width: 250px; height: 300px; }
+.five a { color: #fff; }
+.five .time-to-scroll { top: 700px; }
+/* End Five */
+/* Frame Six */
+.six { background: #abc; }
+.six { height: 1140px; }
+.six h1 { padding-bottom: 1em; line-height: 1em}
+.six .frame-container { height: 250px; }
+.six #old-javascript { background: transparent url(img/old-js.jpg) center no-repeat; width: 900px; height: 760px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9); margin: auto; cursor: pointer; }
+.six #new-javascript { background: transparent url(img/new-js.jpg) center no-repeat; width: 900px; height: 760px; position: relative; top: -760px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9); margin: auto; cursor: pointer; }
+/* End Six */
+/* Frame Seven */
+.seven { background: #999; margin: auto; }
+.seven h1, .eight h1 { text-align: center; line-height: 1.23em; font-weight: 700; letter-spacing: -.05em; }
+.seven img { margin-left: 30px; border: #fff 15px solid; border-bottom: 60px #fff solid; position: absolute; box-shadow: 0px 1px 15px #000; }
+.seven img.first-pic {  -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; }
+.seven img.second-pic { -webkit-transform: rotate(10deg);  -moz-transform: rotate(10deg);  -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; left: 110px }
+.seven img.third-pic {  -webkit-transform: rotate(-5deg);  -moz-transform: rotate(-5deg);  -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; left: 220px; }
+.seven img.fourth-pic { -webkit-transform: rotate(10deg);  -moz-transform: rotate(10deg);  -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; left: 330px; }
+.seven img.fifth-pic {  -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; left: 440px; }
+.seven img.sixth-pic {  -webkit-transform: rotate(5deg);   -moz-transform: rotate(5deg);   -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; left: 550px }
+.seven img.first-pic:hover {  -webkit-transform: rotate(-5deg); -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; top: -50px; }
+.seven img.second-pic:hover { -webkit-transform: rotate( 5deg); -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; top: -50px; }
+.seven img.third-pic:hover {  -webkit-transform: rotate( 0deg); -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; top: -50px; }
+.seven img.fourth-pic:hover { -webkit-transform: rotate( 5deg); -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; top: -50px; }
+.seven img.fifth-pic:hover {  -webkit-transform: rotate(-5deg); -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; top: -50px; }
+.seven img.sixth-pic:hover {  -webkit-transform: rotate( 5deg); -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; top: -50px; }
+.seven .pictures { background: rgba(0, 0, 0, 0.5 ); border-radius: 10px; margin: auto; margin-top: 120px; padding: 40px 20px; height: 300px; }
+.seven .time-to-scroll {top: 0px; left: 800px; }
+/* End Seven */
+/* Frame Eight */
+.eight {height: 1000px; }
+.eight h1 {text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.5)}
+.eight .text-group { width: 570px; margin: 40px; font-family: baskerville, serif; font-size: 1.5em; line-height: 1.66em; text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.5); float: left; }
+.eight .text-group ul li {list-style: square; margin-left: 1em }
+.eight .edknows {background: url(img/ed-2.png) no-repeat; width: 200px; height: 480px; float: right; }
+/* End Eight */
+/* Additional CSS Outside of above blocks. If global, goes to line 1 */
+.round-transition { border-top-left-radius: 1000px 20px; border-top-right-radius: 1000px 20px; border-top: #B7DDFF 100px solid; }
+.round-transition-bottom { border-bottom-left-radius: 1000px 20px; border-bottom-right-radius: 1000px 20px; border-top: #999 100px solid; }
+.roadmap { background: url(roadmap.png) no-repeat left; width: 950px; height: 400px; position: relative; top: 100px; }
+.two h1, .three h1, .four h1, .five h1, .six h1, .seven h1, .eight h1 {font-size: 4.5em; font-weight: 600; }
